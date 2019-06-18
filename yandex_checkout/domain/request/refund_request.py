@@ -66,10 +66,7 @@ class RefundRequest(RequestObject):
         if not self.payment_id:
             self.__set_validation_error('Payment id not specified')
 
-        if not self.amount:
-            self.__set_validation_error('Amount not specified')
-
-        if self.amount.value <= 0.0:
+        if self.amount and self.amount.value <= 0.0:
             self.__set_validation_error('Invalid amount value: ' + str(self.amount.value))
 
         if self.receipt and self.receipt.has_items():
