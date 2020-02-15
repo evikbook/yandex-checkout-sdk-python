@@ -9,6 +9,7 @@ class CardType:
     VISA = 'Visa'
     MIR = 'MIR'
     UNION_PAY = 'UnionPay'
+    INSTA_PAYMENT = 'InstaPayment'
     CUP = 'CUP'
     JCB = 'JCB'
     AMERICAN_EXPRESS = 'AmericanExpress'
