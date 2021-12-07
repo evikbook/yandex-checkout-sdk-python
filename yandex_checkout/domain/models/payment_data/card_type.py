@@ -7,7 +7,7 @@ class CardType:
     """
     MASTER_CARD = 'MasterCard'
     VISA = 'Visa'
-    MIR = 'MIR'
+    MIR = 'Mir'
     UNION_PAY = 'UnionPay'
     CUP = 'CUP'
     JCB = 'JCB'
