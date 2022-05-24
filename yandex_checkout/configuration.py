@@ -10,7 +10,7 @@ class Configuration(object):
     """
     A class representing the configuration.
     """
-    api_url = "https://payment.yandex.net/api/v3"
+    api_url = "https://api.yookassa.ru/v3"
     account_id = None
     secret_key = None
     timeout = 1800
