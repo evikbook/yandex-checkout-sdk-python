@@ -21,7 +21,7 @@ class PaymentMethodType:
     * yandex_checkout.domain.common.PaymentMethodType.TINKOFF_BANK
     * yandex_checkout.domain.common.PaymentMethodType.WECHAT
     """
-    YANDEX_MONEY = 'yandex_money'
+    YANDEX_MONEY = 'yoo_money'
     BANK_CARD = 'bank_card'
     SBERBANK = 'sberbank'
     CASH = 'cash'
